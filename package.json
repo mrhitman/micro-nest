@@ -1,0 +1,21 @@
+{
+  "name": "micro",
+  "version": "1.0.0",
+  "description": "```sh     cd server && npm install && cd ..     cd client && npm install && cd ..     docker-compose up --scale micro=5 ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cd client && npm install && cd ../server && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrhitman/micro-nest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrhitman/micro-nest/issues"
+  },
+  "homepage": "https://github.com/mrhitman/micro-nest#readme"
+}
